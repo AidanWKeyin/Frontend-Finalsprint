@@ -1,4 +1,5 @@
-import { api } from "./axios";
+import { api } from "./axios.js";
+
 
 export const airlinesApi = {
   list: () => api.get("/api/airlines").then(r => r.data),

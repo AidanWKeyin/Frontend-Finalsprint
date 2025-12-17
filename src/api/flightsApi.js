@@ -1,4 +1,5 @@
-import { api } from "./axios";
+import { api } from "./axios.js";
+
 
 export const flightsApi = {
   list: ({ airportId, type } = {}) => {
