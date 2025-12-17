@@ -1,0 +1,6 @@
+services:
+  ui:
+    build: .
+    container_name: aviation-ui
+    ports:
+      - "5173:80"
