@@ -9,7 +9,6 @@ RUN npm ci
 COPY index.html ./index.html
 COPY vite.config.js ./vite.config.js
 COPY src ./src
-COPY public ./public
 COPY nginx.conf ./nginx.conf
 
 RUN npm run build
